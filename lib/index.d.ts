@@ -1,7 +1,7 @@
 /// <reference types="ramda" />
-import React, { ReactNode } from 'react';
-import PropTypes from 'prop-types';
-import querystring from 'query-string';
+import React, { ReactNode } from "react";
+import PropTypes from "prop-types";
+import querystring from "query-string";
 export interface LinkedInToken {
     authentication_code?: string;
     access_token?: string;
@@ -27,7 +27,7 @@ interface Props {
     containerStyle?: any;
     wrapperStyle?: any;
     closeStyle?: any;
-    animationType?: 'none' | 'fade' | 'slide';
+    animationType?: "none" | "fade" | "slide";
     areaTouchText: {
         top?: number;
         bottom?: number;
